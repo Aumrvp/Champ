@@ -250,19 +250,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7410298
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.67147225
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -84.362
       objectReference: {fileID: 0}
     - target: {fileID: 5993569032174826687, guid: 15559e91d09f81f4bb338e445968ca21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -570,14 +570,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583679437}
-  m_LocalRotation: {x: -0, y: -0.7109872, z: -0, w: 0.703205}
-  m_LocalPosition: {x: -0.049999237, y: -0.263, z: -0.01}
+  m_LocalRotation: {x: -0, y: -0.05132889, z: -0, w: 0.9986818}
+  m_LocalPosition: {x: 0.03562332, y: -0.263, z: -0.1572617}
   m_LocalScale: {x: 1, y: 1, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 196310343}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90.631, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.246, z: 0}
 --- !u!120 &583679439
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -911,6 +911,7 @@ MonoBehaviour:
   cueBall: {fileID: 196310342}
   ballLine: {fileID: 583679437}
   xInput: 0
+  force: 20
 --- !u!4 &781533086
 Transform:
   m_ObjectHideFlags: 0
